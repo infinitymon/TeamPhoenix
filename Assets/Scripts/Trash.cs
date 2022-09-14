@@ -7,12 +7,11 @@ public class Trash : MonoBehaviour
 
     [SerializeField] GameObject junk;
 
-    void OnTriggerEnter2D(){
-        if(GetComponent<Collider>().gameObject.tag == "Player"){
-           /* PlayerInfo info = collider.GetComponent<PlayerInfo>();
-            if(info.addGold(value)){
-                info.setCarryGoldTrue();*/
-                Destroy(junk);
+    void OnTriggerEnter(Collider collider){
+        if(collider.gameObject.tag == "Player"){
+            playerinfo info = collider.GetComponent<playerinfo>();
+                info.score = info.score + 10;
+                junk.SetActive(false);
         }
     }
 }

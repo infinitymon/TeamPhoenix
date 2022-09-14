@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class playerinfo : MonoBehaviour
 {
     public Text scoreText;
-    [SerializeField] float score;
+    public float score;
     [SerializeField] float scoreincrementpersecond;
     [SerializeField] float health;
     [SerializeField] float trashcollected;
