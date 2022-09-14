@@ -9,11 +9,13 @@ public class playerinfo : MonoBehaviour
     [SerializeField] float score;
     [SerializeField] float scoreincrementpersecond;
     [SerializeField] float health;
+    [SerializeField] float trashcollected;
     [SerializeField] forwardMovement movement;
     void Start()
     {
         score = 0f;
         health = 100f;
+        trashcollected = 0f;
 
     }
 
@@ -40,7 +42,15 @@ public class playerinfo : MonoBehaviour
     {
         if (collisionInfo.collider.tag == "obstacles")
         {
-            health = health - 10;
+            health = health - 10f;
+            if(trashcollected > 0)
+            {
+                trashcollected = trashcollected - 1;
+            }
+        }
+        else if(collisionInfo.collider.tag == "trash")
+        {
+            trashcollected++;
         }
     }
 }
