@@ -6,10 +6,10 @@ using UnityEngine.UI;
 public class playerinfo : MonoBehaviour
 {
     public Text scoreText;
-    public float score;
-    public float scoreincrementpersecond;
-    public float health;
-    public forwardMovement movement;
+    [SerializeField] float score;
+    [SerializeField] float scoreincrementpersecond;
+    [SerializeField] float health;
+    [SerializeField] forwardMovement movement;
     void Start()
     {
         score = 0f;
