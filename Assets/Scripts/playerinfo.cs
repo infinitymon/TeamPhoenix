@@ -14,18 +14,6 @@ public class playerinfo : MonoBehaviour
     {
         score = 0f;
         health = 100f;
-        if(movement.speed == 4)
-        {
-          scoreincrementpersecond = 1f;
-        }
-        else if(movement.speed == 6)
-        {
-          scoreincrementpersecond = 2f;
-        }
-        else if (movement.speed == 8)
-        {
-            scoreincrementpersecond = 4f;
-        }
 
     }
 
@@ -33,12 +21,24 @@ public class playerinfo : MonoBehaviour
    private void Update()
     {
         scoreText.text = "Score " +(int)score;
-        score += scoreincrementpersecond * Time.deltaTime; 
+        score += scoreincrementpersecond * Time.deltaTime;
+        if (movement.speed == 4)
+        {
+            scoreincrementpersecond = 1f;
+        }
+        else if (movement.speed == 6)
+        {
+            scoreincrementpersecond = 2f;
+        }
+        else if (movement.speed == 8)
+        {
+            scoreincrementpersecond = 4f;
+        }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collisionInfo)
     {
-        if (collision.gameObject.tag == "obstacles")
+        if (collisionInfo.collider.tag == "obstacles")
         {
             health = health - 10;
         }
