@@ -50,7 +50,7 @@ public class playerinfo : MonoBehaviour
         }
         if(collisionInfo.collider.tag == "trash")
         {
-            trashcollected++;
+            trashcollected=trashcollected+1;
         }
     }
 }
