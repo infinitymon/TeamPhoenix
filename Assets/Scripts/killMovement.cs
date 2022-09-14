@@ -12,6 +12,11 @@ public class killMovement : MonoBehaviour
         if(collisionInfo.collider.tag=="obstacles")
         {
             movement.enabled = false;
+            Debug.Log("obstacle hit");
+        }
+        else
+        {
+           // movement.enabled = true;
         }
     }
 
