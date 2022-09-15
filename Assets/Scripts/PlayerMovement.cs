@@ -6,9 +6,10 @@ public class PlayerMovement : MonoBehaviour
 {
     private Touch touch;
     private float speedModifier;
-    public forwardMovement movement;
+    public bool movement;
     [SerializeField] float speed ;
     [SerializeField] Rigidbody rigidbody;
+    public GameObject character ;
     float horizontalInput;
     public float horizontalMultiplier = 4f;
     [SerializeField] float maxSpeed = 15f;
@@ -16,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     {
         speedModifier = 0.05f;
         speed = 5f;
+        movement = true ;
     }
 
     // Update is called once per frame
@@ -44,21 +46,26 @@ public class PlayerMovement : MonoBehaviour
             speed = speed + 0.01f;
         }
 
-        Vector3 forwardMove = transform.forward * speed * Time.fixedDeltaTime;
-        Vector3 horizontalMove= transform.right * horizontalInput * speed * Time.fixedDeltaTime*horizontalMultiplier;
-        rigidbody.MovePosition(rigidbody.position + forwardMove + horizontalMove);
+        if(movement){
+
+            Vector3 forwardMove = transform.forward * speed * Time.fixedDeltaTime;
+            Vector3 horizontalMove= transform.right * horizontalInput * speed * Time.fixedDeltaTime*horizontalMultiplier;
+            rigidbody.MovePosition(rigidbody.position + forwardMove + horizontalMove);
+        }
     }
 
-    private void OnCollisionEnter(Collision collisionInfo)
+    void OnCollisionEnter(Collision collision)
     {
-        if(collisionInfo.collider.tag=="obstacles")
+        if(collision.gameObject.tag == "trash")
         {
-            movement.enabled = false;
-            Debug.Log("obstacle hit");
+            //Vector3.forward = -2 ;
+            //movement = false;
+            //Debug.Log("obstacle hit");
+            movement = true ;
         }
-        else
-        {
-           // movement.enabled = true;
+        else {
+            movement = false ;
         }
+
     }
 }
