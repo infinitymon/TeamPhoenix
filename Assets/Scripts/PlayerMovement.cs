@@ -6,17 +6,16 @@ public class PlayerMovement : MonoBehaviour
 {
     private Touch touch;
     private float speedModifier;
-    public bool movement;
+    [SerializeField] bool movement;
     [SerializeField] float speed ;
     [SerializeField] Rigidbody rigidbody;
-    public GameObject character ;
     float horizontalInput;
     public float horizontalMultiplier = 4f;
-    [SerializeField] float maxSpeed = 15f;
+    [SerializeField] float maxSpeed = 10f;
     void Start()
     {
         speedModifier = 0.01f;
-        speed = 5f;
+        speed = 1.1f;
         movement = true ;
     }
 
@@ -31,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
         // horizontalInput = Input.GetAxis("Horizontal");
         if(movement)
-        transform.Translate(Vector3.forward * Time.deltaTime * horizontalMultiplier, Space.World);
+        transform.Translate(Vector3.forward * Time.deltaTime * horizontalMultiplier * speed, Space.World);
 
         if (Input.touchCount > 0)
         {
@@ -61,15 +60,16 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "trash")
+        if(collision.gameObject.tag == "obstacle")
         {
             //Vector3.forward = -2 ;
             //movement = false;
             //Debug.Log("obstacle hit");
-            movement = true ;
+            movement = false ;
+            //rigidbody.position.z = rigidbody.position.z - 1;
         }
         else {
-            movement = false ;
+            movement = true ;
         }
 
     }
