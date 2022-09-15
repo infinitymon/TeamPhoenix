@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float maxSpeed = 15f;
     void Start()
     {
-        speedModifier = 0.05f;
+        speedModifier = 0.01f;
         speed = 5f;
         movement = true ;
     }
@@ -24,11 +24,16 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 
-        /*Vector3 forwardMove = transform.forward * speed * Time.fixedDeltaTime;
-        Vector3 horizontalMove= transform.right * horizontalInput * speed * Time.fixedDeltaTime*horizontalMultiplier;
-        rigidbody.MovePosition(rigidbody.position + forwardMove + horizontalMove);*/
+        /*  Vector3 forwardMove = transform.forward * speed * Time.fixedDeltaTime;
+          Vector3 horizontalMove= transform.right * horizontalInput * speed * Time.fixedDeltaTime*horizontalMultiplier;
+          rigidbody.MovePosition(rigidbody.position + forwardMove + horizontalMove);*/
 
-        if(Input.touchCount > 0)
+
+        // horizontalInput = Input.GetAxis("Horizontal");
+        if(movement)
+        transform.Translate(Vector3.forward * Time.deltaTime * horizontalMultiplier, Space.World);
+
+        if (Input.touchCount > 0)
         {
            touch=Input.GetTouch(0);
            if(touch.phase == TouchPhase.Moved)
@@ -40,18 +45,18 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         if(speed<maxSpeed){
             speed = speed + 0.01f;
         }
 
-        if(movement){
+     //   if(movement){
 
-            Vector3 forwardMove = transform.forward * speed * Time.fixedDeltaTime;
+          /*  Vector3 forwardMove = transform.forward * speed * Time.fixedDeltaTime;
             Vector3 horizontalMove= transform.right * horizontalInput * speed * Time.fixedDeltaTime*horizontalMultiplier;
-            rigidbody.MovePosition(rigidbody.position + forwardMove + horizontalMove);
-        }
+            rigidbody.MovePosition(rigidbody.position + forwardMove + horizontalMove); */
+     //   }
     }
 
     void OnCollisionEnter(Collision collision)
