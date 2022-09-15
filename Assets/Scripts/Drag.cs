@@ -8,7 +8,7 @@ public class Drag : MonoBehaviour
     private float speedModifier;
     void Start()
     {
-        speedModifier = 0.01f;
+        speedModifier = 0.05f;
     }
 
     // Update is called once per frame

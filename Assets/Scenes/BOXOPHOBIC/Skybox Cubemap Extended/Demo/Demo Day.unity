@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 314663537}
   - component: {fileID: 314663540}
   - component: {fileID: 314663543}
-  - component: {fileID: 314663542}
+  - component: {fileID: 314663544}
   m_Layer: 0
   m_Name: Main Character
   m_TagString: Player
@@ -862,24 +862,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314663535}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 227b0349237535a4c93a5bd7fa926da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &314663542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314663535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 995cf24f326629c4ca2f5cd720f9931b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movement: {fileID: 314663543}
 --- !u!114 &314663543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -887,7 +874,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314663535}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff6a38e787a5b1945a11f0edbf0eda2e, type: 3}
   m_Name: 
@@ -895,6 +882,23 @@ MonoBehaviour:
   speed: 4
   rigidbody: {fileID: 1523015085}
   horizontalMultiplier: 2
+--- !u!114 &314663544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314663535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188398ed4c06193488962cd712dd1555, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movement: {fileID: 0}
+  speed: 0
+  rigidbody: {fileID: 1523015085}
+  horizontalMultiplier: 4
+  maxSpeed: 10
 --- !u!1 &315508964
 GameObject:
   m_ObjectHideFlags: 0
@@ -4565,6 +4569,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!95 &1523015086
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523015080}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 017f1055afced7a4a9b993cb99f53f68, type: 3}
+  m_Controller: {fileID: 9100000, guid: e420bb538f541a64692e43c9e05f6fb0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1534577183
 PrefabInstance:
   m_ObjectHideFlags: 0
