@@ -5035,14 +5035,12 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
-<<<<<<< HEAD
 --- !u!1 &1531029572 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 548862798479234164, guid: d787428d69841564d8e59f6858884468,
     type: 3}
   m_PrefabInstance: {fileID: 1605890456}
   m_PrefabAsset: {fileID: 0}
-=======
 --- !u!114 &1523015087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5060,7 +5058,6 @@ MonoBehaviour:
   rigidbody: {fileID: 1523015085}
   horizontalMultiplier: 4
   maxSpeed: 10
->>>>>>> 4a7238e8654a10ef2fb224861b45a080c8f65ea5
 --- !u!1001 &1534577183
 PrefabInstance:
   m_ObjectHideFlags: 0
