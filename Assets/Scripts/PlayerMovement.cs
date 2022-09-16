@@ -12,11 +12,16 @@ public class PlayerMovement : MonoBehaviour
     float horizontalInput;
     public float horizontalMultiplier = 4f;
     [SerializeField] float maxSpeed = 10f;
+
+    [SerializeField] private Animator _animator;
+    private CharacterAnimationController _animationcontroller ;
+
     void Start()
     {
         speedModifier = 0.01f;
         speed = 1.1f;
         movement = true ;
+        _animationcontroller = new CharacterAnimationController(_animator);
     }
 
     // Update is called once per frame
@@ -29,9 +34,11 @@ public class PlayerMovement : MonoBehaviour
 
 
         // horizontalInput = Input.GetAxis("Horizontal");
-        if(movement)
-        transform.Translate(Vector3.forward * Time.deltaTime * horizontalMultiplier * speed, Space.World);
-
+        if(movement){
+            transform.Translate(Vector3.forward * Time.deltaTime * horizontalMultiplier * speed, Space.World);
+            _animationcontroller.PlayAnimation(AnimationType.Walk);
+        }
+        
         if (Input.touchCount > 0)
         {
            touch=Input.GetTouch(0);
@@ -60,7 +67,8 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "obstacle")
+       // if(collision.gameObject.tag != "Trash"  &&  collision.gameObject.tag != "Environment")
+        if(collision.gameObject.tag == "obstacles")
         {
             //Vector3.forward = -2 ;
             //movement = false;

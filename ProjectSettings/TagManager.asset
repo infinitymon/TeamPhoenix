@@ -6,6 +6,7 @@ TagManager:
   tags:
   - obstacles
   - Trash
+  - Environment
   layers:
   - Default
   - TransparentFX

@@ -13,4 +13,37 @@ public class CharacterAnimationController
         _animator = animator ;
     }
 
+    public void PlayAnimation(AnimationType type){
+        switch (type){
+            case AnimationType.Idle:
+                PlayIdle();
+                break ;
+            case AnimationType.Collide:
+                PlayCollide();
+                break ;
+            case AnimationType.Scoop:
+                PlayScoop();
+                break ;
+            case AnimationType.Walk:
+                PlayWalk();
+                break ;
+        }
+    }
+
+    private void PlayIdle(){
+        _animator.SetTrigger(IdleKey) ;
+    }
+
+    private void PlayScoop(){
+        _animator.SetTrigger(ScoopKey) ;
+    }
+
+    private void PlayCollide(){
+        _animator.SetTrigger(CollideKey) ;
+    }
+
+    private void PlayWalk(){
+        _animator.SetTrigger(WalkKey) ;
+    }
+
 }
