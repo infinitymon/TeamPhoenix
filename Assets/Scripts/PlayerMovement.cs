@@ -66,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
             //movement = false;
             //Debug.Log("obstacle hit");
             movement = false ;
+            speed = 1.1f;
             //rigidbody.position.z = rigidbody.position.z - 1;
         }
         else {
