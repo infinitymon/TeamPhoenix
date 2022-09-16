@@ -11,7 +11,7 @@ public class playerinfo : MonoBehaviour
     public float score;
     [SerializeField] float scoreincrementpersecond;
     [SerializeField] float health;
-    [SerializeField] float trashcollected;
+    public float trashcollected;
     [SerializeField] forwardMovement movement;
     void Start()
     {
