@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class playerinfo : MonoBehaviour
 {
     public Text scoreText;
+    public Text healthText;
+    public Text trashText;
     public float score;
     [SerializeField] float scoreincrementpersecond;
     [SerializeField] float health;
@@ -23,6 +25,8 @@ public class playerinfo : MonoBehaviour
    private void Update()
     {
         scoreText.text = "Score " +(int)score;
+        healthText.text= "Health "+(int)health;
+        trashText.text = "Trash " + (int)trashcollected;
         score += scoreincrementpersecond * Time.deltaTime;
         if (movement.speed == 4)
         {
