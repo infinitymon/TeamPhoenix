@@ -9,11 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 54a639d34870311499ec9dc5c351ede9, type: 3}
       propertyPath: m_Name
-      value: Bush02 (7)
+      value: Bush02 (7) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 54a639d34870311499ec9dc5c351ede9, type: 3}
       propertyPath: m_TagString
-      value: obstacles
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54a639d34870311499ec9dc5c351ede9, type: 3}
       propertyPath: m_RootOrder
