@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38816622, g: 0.2607117, b: 0.6505438, a: 1}
+  m_IndirectSpecularColor: {r: 0.3881973, g: 0.26074722, b: 0.65053886, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4985,7 +4985,7 @@ MonoBehaviour:
   speed: 0
   rigidbody: {fileID: 1523015085}
   horizontalMultiplier: 4
-  maxSpeed: 10
+  maxSpeed: 5
   _animator: {fileID: 1523015086}
 --- !u!4 &1534577184 stripped
 Transform:
@@ -7607,6 +7607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282717741850796099, guid: 4f42a47538b12c749a4604c2fe6720b3,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7282717741850836067, guid: 4f42a47538b12c749a4604c2fe6720b3,
         type: 3}
