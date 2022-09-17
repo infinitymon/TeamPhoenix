@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Rigidbody rigidbody;
     float horizontalInput;
     public float horizontalMultiplier = 4f;
-    [SerializeField] float maxSpeed = 10f;
+    [SerializeField] float maxSpeed = 7f;
 
     [SerializeField] private Animator _animator;
     private CharacterAnimationController _animationcontroller ;
