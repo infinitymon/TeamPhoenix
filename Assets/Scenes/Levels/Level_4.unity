@@ -14254,8 +14254,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 0.06907645, y: 0.07743174, z: 0.09569819}
-  m_Center: {x: 0.0077375653, y: 0.027984926, z: -0.0019921155}
+  m_Size: {x: 0.075606495, y: 0.0772196, z: 0.06622099}
+  m_Center: {x: 0.011280945, y: 0.0019180131, z: 0.0060996828}
 --- !u!4 &1040752379
 Transform:
   m_ObjectHideFlags: 0
@@ -19305,22 +19305,19 @@ Transform:
   - {fileID: 1231056006}
   - {fileID: 1035040466}
   - {fileID: 582129743}
-  - {fileID: 1877178571}
-  - {fileID: 1944952368}
   - {fileID: 817903122}
-  - {fileID: 1728277989}
-  - {fileID: 935684835}
-  - {fileID: 67793879}
-  - {fileID: 510251002}
-  - {fileID: 2102195893}
+  - {fileID: 1877178571}
   - {fileID: 1114654283}
   - {fileID: 789488277}
   - {fileID: 519575002}
+  - {fileID: 935684835}
   - {fileID: 199200545}
   - {fileID: 1640073822}
-  - {fileID: 1989733362}
-  - {fileID: 1849651628}
+  - {fileID: 1944952368}
+  - {fileID: 67793879}
+  - {fileID: 510251002}
   - {fileID: 664382889}
+  - {fileID: 1989733362}
   - {fileID: 893665615}
   - {fileID: 1748893750}
   - {fileID: 1100025800}
@@ -19329,6 +19326,7 @@ Transform:
   - {fileID: 1841863122}
   - {fileID: 931723706}
   - {fileID: 831812537}
+  - {fileID: 2102195893}
   - {fileID: 17425938}
   - {fileID: 876463350}
   - {fileID: 1600863782}
@@ -19336,8 +19334,10 @@ Transform:
   - {fileID: 1303315927}
   - {fileID: 1033557218}
   - {fileID: 635562266}
+  - {fileID: 1728277989}
   - {fileID: 78093065}
   - {fileID: 496876296}
+  - {fileID: 1849651628}
   - {fileID: 28523023}
   - {fileID: 2034959745}
   - {fileID: 715550893}
@@ -23860,8 +23860,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.06907645, y: 0.07743174, z: 0.09569819}
-  m_Center: {x: 0.0077375653, y: 0.027984926, z: -0.0019921155}
+  m_Size: {x: 0.06390562, y: 0.07394647, z: 0.061755087}
+  m_Center: {x: 0.0051521617, y: 0.02624229, z: -0.0004657255}
 --- !u!1001 &1924859530
 PrefabInstance:
   m_ObjectHideFlags: 0
