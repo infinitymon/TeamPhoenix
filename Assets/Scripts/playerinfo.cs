@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class playerinfo : MonoBehaviour
 {
     public Text scoreText;
     public Text healthText;
     public Text trashText;
-    public float score;
+    public static float score;
     [SerializeField] float scoreincrementpersecond;
     [SerializeField] float health;
-    public float trashcollected;
+    public static float trashcollected;
     [SerializeField] forwardMovement movement;
     void Start()
     {
@@ -40,6 +41,7 @@ public class playerinfo : MonoBehaviour
         {
             scoreincrementpersecond = 4f;
         }
+       
     }
 
     private void OnCollisionEnter(Collision collisionInfo)
@@ -57,4 +59,6 @@ public class playerinfo : MonoBehaviour
             trashcollected=trashcollected+1;
         }
     }
+
+  
 }
