@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18739957, g: 0.06106134, b: 0.1816091, a: 1}
+  m_IndirectSpecularColor: {r: 0.1873995, g: 0.061061226, b: 0.18160903, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -32367,7 +32367,7 @@ MonoBehaviour:
   trashText: {fileID: 328712179}
   scoreincrementpersecond: 0
   health: 0
-  movement: {fileID: 1040752376}
+  movement: {fileID: 1916606307}
 --- !u!95 &1916606309
 Animator:
   serializedVersion: 4
@@ -32517,6 +32517,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64f9b31178aca94b9eb9fd63dd38805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelTransitionUI: {fileID: 0}
+  info: {fileID: 0}
+  scoretext: {fileID: 0}
+  trashtext: {fileID: 0}
+  gameon: 0
 --- !u!1001 &1924859530
 PrefabInstance:
   m_ObjectHideFlags: 0

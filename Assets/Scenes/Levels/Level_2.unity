@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38816622, g: 0.2607117, b: 0.6505438, a: 1}
+  m_IndirectSpecularColor: {r: 0.3881973, g: 0.26074722, b: 0.65053886, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9159,7 +9159,7 @@ MonoBehaviour:
   trashText: {fileID: 1908124526}
   scoreincrementpersecond: 0
   health: 0
-  movement: {fileID: 314663543}
+  movement: {fileID: 1523015087}
 --- !u!23 &1523015083
 MeshRenderer:
   m_ObjectHideFlags: 0

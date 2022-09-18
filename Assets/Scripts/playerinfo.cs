@@ -13,7 +13,9 @@ public class playerinfo : MonoBehaviour
     [SerializeField] float scoreincrementpersecond;
     [SerializeField] float health;
     public static float trashcollected;
-    [SerializeField] forwardMovement movement;
+    [SerializeField] PlayerMovement movement;
+    //private PlayerMovement movement;
+    
     void Start()
     {
         score = 0f;
@@ -29,15 +31,15 @@ public class playerinfo : MonoBehaviour
         healthText.text= "Health "+(int)health;
         trashText.text = "Trash " + (int)trashcollected;
         score += scoreincrementpersecond * Time.deltaTime;
-        if (movement.speed == 4)
+        if (movement.speed < 2)
         {
             scoreincrementpersecond = 1f;
         }
-        else if (movement.speed == 6)
+        else if (movement.speed == 4)
         {
             scoreincrementpersecond = 2f;
         }
-        else if (movement.speed == 8)
+        else if (movement.speed == 6)
         {
             scoreincrementpersecond = 4f;
         }
