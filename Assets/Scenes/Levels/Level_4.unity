@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1873995, g: 0.061061226, b: 0.18160903, a: 1}
+  m_IndirectSpecularColor: {r: 0.18727162, g: 0.060932994, b: 0.18147196, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 34ffadff69719de40b245f9b7a327584,
+    type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: fb11455c7736b79458a1967b27ae0c49,
     type: 2}
 --- !u!196 &4
@@ -582,6 +583,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ToiletPaper
       objectReference: {fileID: 0}
+    - target: {fileID: 6512459790420125717, guid: 7a36e8c2eee887d4db76bac51b712823,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6512459790420423733, guid: 7a36e8c2eee887d4db76bac51b712823,
         type: 3}
       propertyPath: m_RootOrder
@@ -636,6 +642,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -64.303
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512459790666889150, guid: 7a36e8c2eee887d4db76bac51b712823,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
@@ -804,10 +815,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -1070,6 +1091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 379803497}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &63221553
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1099,10 +1121,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -1262,10 +1294,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -1404,6 +1446,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174071497518895, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -2047,6 +2099,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Trash
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2137,6 +2197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 134311655}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &134311658
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2165,6 +2226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 134311656}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!23 &134311660
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2304,6 +2366,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174071497518895, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &139165367 stripped
@@ -2435,6 +2507,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cereal (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098148430987, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1994899098148665515, guid: e9a3b2755459bcb45bda5eaffa13a323,
         type: 3}
       propertyPath: m_RootOrder
@@ -2489,6 +2566,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -2833,10 +2915,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -2924,10 +3016,30 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -3063,6 +3175,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle_cracked (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7373787561219855443, guid: 57845020248c0a442a61a4a9f1a6a522,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
 --- !u!4 &190063936 stripped
@@ -3161,10 +3278,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
       value: Bricks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4394523390072236623, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
@@ -3394,10 +3521,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -4910,10 +5047,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -5232,6 +5379,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
@@ -5763,6 +5920,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
+    - target: {fileID: 100000, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
       propertyPath: m_Name
       value: Desks (11)
@@ -5770,6 +5939,10 @@ PrefabInstance:
     - target: {fileID: 100006, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
       propertyPath: m_TagString
       value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
       propertyPath: m_RootOrder
@@ -5873,6 +6046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 379803495}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &379803500
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5901,6 +6075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 379803496}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &379803502
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5929,6 +6104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 379803498}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!23 &379803504
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6831,10 +7007,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -7248,6 +7434,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Trash
       objectReference: {fileID: 0}
+    - target: {fileID: 1705129010167144, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4528477828364640, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7331,6 +7521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 478725037}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &478725039
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7575,6 +7766,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174071497518895, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &496876296 stripped
@@ -7598,10 +7799,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -7856,6 +8067,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
       propertyPath: m_RootOrder
@@ -8009,6 +8230,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Trash
       objectReference: {fileID: 0}
+    - target: {fileID: 1705129010167144, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4528477828364640, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -8098,6 +8323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 536735904}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &536735906
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8612,10 +8838,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -8703,10 +8939,30 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -8965,10 +9221,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -9052,6 +9318,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
@@ -9540,6 +9816,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cereal (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098148430987, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1994899098148665515, guid: e9a3b2755459bcb45bda5eaffa13a323,
         type: 3}
       propertyPath: m_RootOrder
@@ -9595,6 +9876,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
 --- !u!4 &634262531 stripped
@@ -9618,10 +9904,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -9701,6 +9997,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Trash
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8cdf52bef3c7c874498d5def25a35bbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8cdf52bef3c7c874498d5def25a35bbf, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -9773,6 +10073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 639118942}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &639118944
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10037,10 +10338,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -10505,10 +10816,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -11525,6 +11846,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle_cracked (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7373787561219855443, guid: 57845020248c0a442a61a4a9f1a6a522,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
 --- !u!4 &789488277 stripped
@@ -11623,10 +11949,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -11865,6 +12201,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174071497518895, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &815612431 stripped
@@ -11943,6 +12289,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle_cracked (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373787561219855443, guid: 57845020248c0a442a61a4a9f1a6a522,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
@@ -12112,6 +12463,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174071497518895, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &824474988 stripped
@@ -12139,6 +12500,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cereal (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098148430987, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1994899098148665515, guid: e9a3b2755459bcb45bda5eaffa13a323,
         type: 3}
@@ -12194,6 +12560,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -12467,10 +12838,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -12918,10 +13299,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -13321,10 +13712,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -13409,6 +13810,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cereal (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098148430987, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1994899098148665515, guid: e9a3b2755459bcb45bda5eaffa13a323,
         type: 3}
       propertyPath: m_RootOrder
@@ -13463,6 +13869,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -13990,6 +14401,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ToiletPaper (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6512459790420125717, guid: 7a36e8c2eee887d4db76bac51b712823,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6512459790420423733, guid: 7a36e8c2eee887d4db76bac51b712823,
         type: 3}
       propertyPath: m_RootOrder
@@ -14044,6 +14460,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -64.303
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512459790666889150, guid: 7a36e8c2eee887d4db76bac51b712823,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
@@ -14202,6 +14623,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174071497518895, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -14376,6 +14807,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Trash
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -14466,6 +14905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1016049886}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &1016049889
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14494,6 +14934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1016049887}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!23 &1016049891
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14679,6 +15120,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 0}
+  isGlobal: 0
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!114 &1028018169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14691,6 +15137,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 0}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 0}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!20 &1028018170
 Camera:
   m_ObjectHideFlags: 0
@@ -14753,6 +15247,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
@@ -14891,6 +15395,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174071497518895, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -15424,6 +15938,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cereal (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098148430987, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1994899098148665515, guid: e9a3b2755459bcb45bda5eaffa13a323,
         type: 3}
       propertyPath: m_RootOrder
@@ -15479,6 +15998,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
 --- !u!4 &1086197387 stripped
@@ -15510,10 +16034,30 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -15593,10 +16137,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -15810,6 +16364,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174071497518895, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -16768,10 +17332,30 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -16851,10 +17435,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
       value: Bricks (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4394523390072236623, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
@@ -17504,6 +18098,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
       propertyPath: m_RootOrder
@@ -17908,10 +18512,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -18296,6 +18910,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle_cracked
       objectReference: {fileID: 0}
+    - target: {fileID: 7373787561219855443, guid: 57845020248c0a442a61a4a9f1a6a522,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
 --- !u!4 &1371921536 stripped
@@ -18529,6 +19148,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174071497518895, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &1377682642 stripped
@@ -18547,6 +19176,10 @@ PrefabInstance:
     - target: {fileID: 196096, guid: 360896a24701dce48afca68f0d6ea7cc, type: 3}
       propertyPath: m_Name
       value: CPT_Terrain_L_a_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 196096, guid: 360896a24701dce48afca68f0d6ea7cc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436142, guid: 360896a24701dce48afca68f0d6ea7cc, type: 3}
       propertyPath: m_RootOrder
@@ -19285,10 +19918,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -19448,10 +20091,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -19600,10 +20253,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
       value: Bricks (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4394523390072236623, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
@@ -19956,10 +20619,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -20038,7 +20711,7 @@ GameObject:
   m_TagString: Trash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1534097525
 Transform:
@@ -20152,10 +20825,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -20393,10 +21076,30 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -20800,6 +21503,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174071497518895, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &1631343447 stripped
@@ -20827,6 +21540,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cereal (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098148430987, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1994899098148665515, guid: e9a3b2755459bcb45bda5eaffa13a323,
         type: 3}
@@ -20882,6 +21600,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -21395,10 +22118,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -21478,10 +22211,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -21846,10 +22589,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -22178,10 +22931,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -23209,6 +23972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cereal_2
       objectReference: {fileID: 0}
+    - target: {fileID: 129966, guid: 44d893618ee70db4fbea9c13f14a89fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 437718, guid: 44d893618ee70db4fbea9c13f14a89fb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -23287,6 +24054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1827817191}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &1827817193
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23315,6 +24083,10 @@ PrefabInstance:
     - target: {fileID: 1705129010167144, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
       propertyPath: m_TagString
       value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 1705129010167144, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4528477828364640, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
       propertyPath: m_RootOrder
@@ -23399,6 +24171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1835521773}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &1835521775
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23428,10 +24201,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -23740,6 +24523,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174071497518895, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &1848525725 stripped
@@ -23763,10 +24556,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -23846,10 +24649,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -23985,6 +24798,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottle2 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7373787561219855443, guid: 57845020248c0a442a61a4a9f1a6a522,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
 --- !u!4 &1871498104 stripped
@@ -24012,6 +24830,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
@@ -24345,6 +25173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cereal
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098148430987, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1994899098148665515, guid: e9a3b2755459bcb45bda5eaffa13a323,
         type: 3}
       propertyPath: m_RootOrder
@@ -24399,6 +25232,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -25164,10 +26002,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
       value: Bricks (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4394523390072236623, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
@@ -25648,10 +26496,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -25830,6 +26688,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Trash
       objectReference: {fileID: 0}
+    - target: {fileID: 1705129010167144, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4528477828364640, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -25919,6 +26781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1983562676}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &1983562678
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26031,10 +26894,30 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -26114,10 +26997,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -26635,6 +27528,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cereal (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098148430987, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1994899098148665515, guid: e9a3b2755459bcb45bda5eaffa13a323,
         type: 3}
       propertyPath: m_RootOrder
@@ -26689,6 +27587,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -26887,10 +27790,20 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7479102416521759091, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
       propertyPath: m_Name
       value: Cola Can (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479102416891388052, guid: 6bcd54c63073e5e46a0b95cc87984df1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7484143015736698012, guid: 6bcd54c63073e5e46a0b95cc87984df1,
         type: 3}
@@ -27334,6 +28247,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bottle4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174071497518895, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
