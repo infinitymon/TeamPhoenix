@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38816407, g: 0.26077983, b: 0.6505906, a: 1}
+  m_IndirectSpecularColor: {r: 0.3881973, g: 0.26074722, b: 0.65053886, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7639,7 +7639,7 @@ MonoBehaviour:
   speed: 0
   rigidbody: {fileID: 1523015085}
   horizontalMultiplier: 4
-  maxSpeed: 10
+  maxSpeed: 7
   _animator: {fileID: 1523015086}
 --- !u!1 &1531029572 stripped
 GameObject:

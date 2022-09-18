@@ -9,10 +9,10 @@ public class Trash : MonoBehaviour
     [SerializeField] playerinfo playerscript;
     void OnTriggerEnter(Collider collider){
         if(collider.gameObject.tag == "Player"){
-            playerinfo info = collider.GetComponent<playerinfo>();
-                info.score = info.score + 10;
+          //  playerinfo info = collider.GetComponent<playerinfo>();
+                playerinfo.score = playerinfo.score + 10;
                 junk.SetActive(false);
-            playerscript.trashcollected = playerscript.trashcollected + 1;
+            playerinfo.trashcollected = playerinfo.trashcollected + 1;
 
         }
     }
