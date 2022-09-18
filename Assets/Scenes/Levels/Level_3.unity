@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38816407, g: 0.26077983, b: 0.6505906, a: 1}
+  m_IndirectSpecularColor: {r: 0.3881973, g: 0.26074722, b: 0.65053886, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -141,6 +141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -316,6 +321,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -378,6 +395,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -477,6 +499,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 6672562128803930305, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -722,6 +749,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -846,6 +878,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &71307328 stripped
@@ -915,6 +952,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
@@ -1184,6 +1226,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -1275,6 +1321,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 100000, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
       propertyPath: m_Name
       value: Desks (11)
@@ -1385,6 +1443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 152367198}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!64 &152367203
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1413,6 +1472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 152367199}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!64 &152367205
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1441,6 +1501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 152367201}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!33 &152367207
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1887,6 +1948,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -1949,6 +2022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -2040,6 +2118,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -2103,6 +2193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -2173,6 +2268,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
@@ -2372,6 +2472,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -2517,6 +2622,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -2660,6 +2777,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree05 (10) Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
@@ -3443,6 +3565,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -3604,18 +3731,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
     - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -3691,6 +3857,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -3811,6 +3982,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -3918,6 +4094,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Trash
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -4008,6 +4188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 444863685}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!64 &444863688
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4036,6 +4217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 444863686}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!33 &444863690
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4120,6 +4302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 89479592}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!64 &453909296
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4355,6 +4538,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -4435,6 +4623,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
@@ -4528,6 +4721,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -4741,6 +4946,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &548265822 stripped
@@ -4810,6 +5020,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
@@ -4905,6 +5120,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 1742356504, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1742356504, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1810217444, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1810217444, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
       propertyPath: playerscript
       value: 
@@ -5050,6 +5277,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &577504030 stripped
@@ -5120,6 +5352,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -5134,14 +5371,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -5224,6 +5504,10 @@ PrefabInstance:
       value: Cactus (10)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -5524,6 +5808,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -5588,6 +5884,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
 --- !u!4 &680969695 stripped
@@ -5620,6 +5921,10 @@ PrefabInstance:
       value: Box0 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
       propertyPath: m_TagString
       value: Trash
       objectReference: {fileID: 0}
@@ -5713,6 +6018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 683723237}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!64 &683723240
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5741,6 +6047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 683723238}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!33 &683723242
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5817,6 +6124,10 @@ PrefabInstance:
       value: Cactus (15)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -6009,10 +6320,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
@@ -6089,6 +6417,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -6174,6 +6514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 152367200}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!64 &761687361
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6272,6 +6613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cereal_2
       objectReference: {fileID: 0}
+    - target: {fileID: 129966, guid: 44d893618ee70db4fbea9c13f14a89fb, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 437718, guid: 44d893618ee70db4fbea9c13f14a89fb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6350,6 +6695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 772372343}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!64 &772372345
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6372,6 +6718,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -6455,6 +6813,10 @@ PrefabInstance:
       value: Cactus (8)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -6645,6 +7007,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -6728,6 +7095,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -7109,6 +7488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 883252327}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!64 &883252329
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7341,6 +7721,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
@@ -7625,6 +8010,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 6672562128803930305, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -7694,6 +8084,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
       propertyPath: playerscript
       value: 
@@ -7858,6 +8252,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 1742356504, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1742356504, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1810217444, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1810217444, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
       propertyPath: playerscript
       value: 
@@ -8431,6 +8837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1066089671}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!64 &1066089673
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8599,6 +9006,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -8910,6 +9329,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7451283035979784069, guid: ca917ce45d88a7c4ca22f74979d9d215,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 8508923885940702197, guid: ca917ce45d88a7c4ca22f74979d9d215,
         type: 3}
       propertyPath: m_Name
@@ -9066,6 +9490,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -9140,6 +9569,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!1001 &1141756353
@@ -9149,14 +9583,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -9406,6 +9883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1156405550}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!64 &1156405552
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9428,6 +9906,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -9671,6 +10161,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &1224355401 stripped
@@ -9864,6 +10359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1263021214}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!64 &1263021216
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10053,6 +10549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1293395442}
   playerscript: {fileID: 1523015082}
+  _animator: {fileID: 1523015086}
 --- !u!64 &1293395444
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10074,6 +10571,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -10138,6 +10647,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
 --- !u!4 &1302699405 stripped
@@ -10153,10 +10667,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
@@ -10257,6 +10788,10 @@ PrefabInstance:
       value: Cactus (11)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -10446,6 +10981,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -10508,6 +11055,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -10585,6 +11137,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -10599,14 +11156,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -10678,14 +11278,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -10762,6 +11405,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -10837,6 +11485,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -10905,6 +11558,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -10986,6 +11644,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -11192,7 +11855,7 @@ MonoBehaviour:
   trashText: {fileID: 1908124526}
   scoreincrementpersecond: 0
   health: 0
-  movement: {fileID: 314663543}
+  movement: {fileID: 0}
 --- !u!23 &1523015083
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11256,7 +11919,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523015080}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1.98
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -11272,12 +11935,12 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523015080}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 017f1055afced7a4a9b993cb99f53f68, type: 3}
   m_Controller: {fileID: 9100000, guid: e420bb538f541a64692e43c9e05f6fb0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -11300,7 +11963,7 @@ MonoBehaviour:
   speed: 0
   rigidbody: {fileID: 1523015085}
   horizontalMultiplier: 4
-  maxSpeed: 6
+  maxSpeed: 7
   _animator: {fileID: 1523015086}
 --- !u!114 &1523015088
 MonoBehaviour:
@@ -11330,6 +11993,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -11401,6 +12069,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
@@ -11409,6 +12089,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
@@ -11485,6 +12170,10 @@ PrefabInstance:
       value: Cactus (12)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -11589,6 +12278,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -11734,6 +12428,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &1602213981 stripped
@@ -11749,10 +12448,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
@@ -11855,6 +12571,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -11934,6 +12654,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -12067,6 +12799,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -12161,6 +12898,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -12224,6 +12973,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -12384,6 +13138,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -12447,6 +13213,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &1708724388 stripped
@@ -12466,6 +13237,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -12596,6 +13372,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree05 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
@@ -12752,6 +13533,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!1001 &1764527557
@@ -12866,6 +13652,11 @@ PrefabInstance:
       value: tree07 (12)
       objectReference: {fileID: 0}
     - target: {fileID: 548862798479234164, guid: d787428d69841564d8e59f6858884468,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 1157578826809305441, guid: d787428d69841564d8e59f6858884468,
         type: 3}
       propertyPath: m_TagString
       value: obstacles
@@ -13221,6 +14012,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -13796,6 +14599,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -13860,6 +14675,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
 --- !u!4 &1837117180 stripped
@@ -13880,6 +14700,10 @@ PrefabInstance:
       value: Cactus (17)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -14049,6 +14873,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7451283035979784069, guid: ca917ce45d88a7c4ca22f74979d9d215,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 8508923885940702197, guid: ca917ce45d88a7c4ca22f74979d9d215,
         type: 3}
       propertyPath: m_Name
@@ -14204,6 +15033,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 8424023684789269817, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14315,6 +15149,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -14459,6 +15305,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!1001 &1967030351
@@ -14548,6 +15399,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -14632,6 +15495,11 @@ PrefabInstance:
       value: tree07 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 548862798479234164, guid: d787428d69841564d8e59f6858884468,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 1157578826809305441, guid: d787428d69841564d8e59f6858884468,
         type: 3}
       propertyPath: m_TagString
       value: obstacles
@@ -14831,6 +15699,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -14850,6 +15723,10 @@ PrefabInstance:
       value: Cactus (5)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -15194,6 +16071,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7451283035979784069, guid: ca917ce45d88a7c4ca22f74979d9d215,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 8508923885940702197, guid: ca917ce45d88a7c4ca22f74979d9d215,
         type: 3}
@@ -15635,6 +16517,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &2073501349 stripped
@@ -15725,6 +16612,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -15743,6 +16635,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -15825,6 +16722,10 @@ PrefabInstance:
       value: Cactus (16)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -15939,6 +16840,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: playerscript
+      value: 
+      objectReference: {fileID: 1523015082}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -16002,6 +16915,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -16093,6 +17011,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -16217,6 +17140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree05 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
@@ -16504,13 +17432,26 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
     - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
@@ -16654,6 +17595,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LowPoly - Rock B (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5532442163117416404, guid: 69e390654726db3469fb600a37237b39,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 5536102417427016458, guid: 69e390654726db3469fb600a37237b39,
         type: 3}
       propertyPath: m_RootOrder
@@ -16719,9 +17665,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -16786,6 +17740,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottle4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!1001 &6512459790015633258
@@ -16796,9 +17755,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 1742356504, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 1742356504, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
+    - target: {fileID: 1810217444, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 1810217444, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
       propertyPath: playerscript
       value: 
@@ -17080,6 +18047,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
@@ -17153,9 +18124,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 526001151}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1523015082}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1523015086}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 

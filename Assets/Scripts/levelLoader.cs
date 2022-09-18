@@ -11,12 +11,15 @@ public class levelLoader : MonoBehaviour
     [SerializeField] Text scoretext;
     [SerializeField] Text trashtext;
     [SerializeField] bool gameon;
+    private PlayerMovement playermovement ;
    
 
     private void Start()
     {
         gameon = true;
         levelTransitionUI.SetActive(false); 
+
+        playermovement = new PlayerMovement() ;
     }
 
     private void Update()
@@ -38,6 +41,7 @@ public class levelLoader : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
+        Scene scene = SceneManager.GetActiveScene() ;
         if(collision.gameObject.tag=="levelfinisher")
         {
             levelTransitionUI.SetActive(true);
@@ -46,6 +50,10 @@ public class levelLoader : MonoBehaviour
             gameon = false;
             Time.timeScale = 0;
             nextlevel();
+        }
+
+        else if(collision.gameObject.tag=="levelfinisher" && scene.name == "Level_5"){
+
         }
     }
 }

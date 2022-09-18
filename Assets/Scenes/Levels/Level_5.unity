@@ -1380,6 +1380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 379803497}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &63221553
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7459,6 +7460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 379803495}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &379803500
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7487,6 +7489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 379803496}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &379803502
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7515,6 +7518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 379803498}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!23 &379803504
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9078,6 +9082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 478725037}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &478725039
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10086,6 +10091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 536735904}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &536735906
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12136,6 +12142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 639118942}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &639118944
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18097,6 +18104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1016049886}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &1016049889
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18125,6 +18133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1016049887}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!23 &1016049891
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19780,6 +19789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1134084894}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &1134084897
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19808,6 +19818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1134084895}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!33 &1134084899
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -22361,6 +22372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1318449161}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &1318449164
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22389,6 +22401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1318449162}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!33 &1318449166
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -29101,6 +29114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1742486658}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &1742486661
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29129,6 +29143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1742486659}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!23 &1742486663
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30540,6 +30555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1827817191}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &1827817193
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30652,6 +30668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1835521773}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &1835521775
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32518,9 +32535,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelTransitionUI: {fileID: 0}
-  info: {fileID: 0}
-  scoretext: {fileID: 0}
-  trashtext: {fileID: 0}
+  info: {fileID: 1916606308}
+  scoretext: {fileID: 496225244}
+  trashtext: {fileID: 328712179}
   gameon: 0
 --- !u!1001 &1924859530
 PrefabInstance:
@@ -33482,6 +33499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1983562676}
   playerscript: {fileID: 1916606308}
+  _animator: {fileID: 0}
 --- !u!64 &1983562678
 MeshCollider:
   m_ObjectHideFlags: 0
