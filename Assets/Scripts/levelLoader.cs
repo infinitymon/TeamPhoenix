@@ -12,6 +12,10 @@ public class levelLoader : MonoBehaviour
     [SerializeField] Text trashtext;
     [SerializeField] bool gameon;
     private PlayerMovement playermovement ;
+    public GameObject MainCam ;
+    public GameObject SecondCam ;
+    public GameObject obstacles ;
+    public GameObject greenry; 
    
 
     private void Start()
@@ -53,7 +57,21 @@ public class levelLoader : MonoBehaviour
         }
 
         else if(collision.gameObject.tag=="levelfinisher" && scene.name == "Level_5"){
+            MainCam.SetActive(false) ;
+            StartCoroutine(Example());
+            SecondCam.SetActive(true) ;
+            StartCoroutine(Example());
+            obstacles.SetActive(false) ;
+            StartCoroutine(Example());
+            greenry.SetActive(true) ;
+
 
         }
+    }
+
+    IEnumerator Example()
+    {
+        yield return new WaitForSecondsRealtime(2);
+     //   print(Time.time);
     }
 }
