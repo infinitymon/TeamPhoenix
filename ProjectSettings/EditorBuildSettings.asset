@@ -14,9 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level_4.unity
     guid: 716f01bbd64cd2247bdf54a37dbaee49
-  - enabled: 1
-    path: Assets/Scenes/Levels/levelTransition.unity
-    guid: cb26073ab54ce6b4e84eec3f83133283
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 2575108f942100449a6e01cc63fa9445,
       type: 2}
