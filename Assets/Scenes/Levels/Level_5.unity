@@ -43390,6 +43390,8 @@ MonoBehaviour:
   gameon: 0
   MainCam: {fileID: 1028018166}
   SecondCam: {fileID: 1482356703}
+  obstacles: {fileID: 569748882}
+  greenry: {fileID: 2004584047}
 --- !u!1001 &1923948978
 PrefabInstance:
   m_ObjectHideFlags: 0
