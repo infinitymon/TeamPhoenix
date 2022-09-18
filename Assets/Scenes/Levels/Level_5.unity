@@ -570,9 +570,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1742356504, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1742356504, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1810217444, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1810217444, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
       propertyPath: playerscript
       value: 
@@ -806,6 +814,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -1006,6 +1019,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -1027,9 +1045,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -1168,6 +1194,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
@@ -1380,7 +1411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 379803497}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &63221553
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1403,9 +1434,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -1486,9 +1525,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -1734,9 +1781,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -1800,6 +1855,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -1876,6 +1936,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &82076732 stripped
@@ -1897,6 +1962,11 @@ PrefabInstance:
       value: tree07 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 548862798479234164, guid: d787428d69841564d8e59f6858884468,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 1157578826809305441, guid: d787428d69841564d8e59f6858884468,
         type: 3}
       propertyPath: m_TagString
       value: obstacles
@@ -2256,6 +2326,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &108537686 stripped
@@ -2425,6 +2500,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree05 (10) Variant (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
@@ -2741,9 +2821,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -2807,6 +2895,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -2991,6 +3084,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7451283035979784069, guid: ca917ce45d88a7c4ca22f74979d9d215,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 8508923885940702197, guid: ca917ce45d88a7c4ca22f74979d9d215,
         type: 3}
       propertyPath: m_Name
@@ -3151,6 +3249,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7451283035979784069, guid: ca917ce45d88a7c4ca22f74979d9d215,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 8508923885940702197, guid: ca917ce45d88a7c4ca22f74979d9d215,
         type: 3}
       propertyPath: m_Name
@@ -3251,6 +3354,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -3322,9 +3430,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -3388,6 +3504,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -3725,9 +3846,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -3808,25 +3937,56 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -3903,6 +4063,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus (4) Variant (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
       propertyPath: m_RootOrder
@@ -3973,6 +4138,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
+    - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
       propertyPath: playerscript
       value: 
@@ -4128,13 +4297,26 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
@@ -4214,6 +4396,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -4345,6 +4532,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &211612614 stripped
@@ -4361,9 +4553,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -4588,6 +4788,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 8424023684789269817, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4753,6 +4958,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -4832,6 +5042,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree05 (10) Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
@@ -5024,6 +5239,10 @@ PrefabInstance:
       value: Cactus (15)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -5454,6 +5673,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -5635,6 +5859,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -6031,6 +6260,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -6052,9 +6286,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -6353,6 +6595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 62ef2651489b52541b4c69d5088bcec4, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 62ef2651489b52541b4c69d5088bcec4, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6559,6 +6805,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -6580,9 +6831,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
@@ -6591,6 +6850,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
@@ -6663,13 +6927,26 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
@@ -6830,6 +7107,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -6955,6 +7237,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -6979,6 +7266,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -7055,6 +7347,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -7130,6 +7427,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus (4) Variant (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
       propertyPath: m_RootOrder
@@ -7204,6 +7506,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -7330,6 +7637,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -7350,6 +7662,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
+    - target: {fileID: 100000, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: bc2d43327f6b0a24881ad76800285f26, type: 3}
       propertyPath: m_Name
       value: Desks (11)
@@ -7460,7 +7784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 379803495}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &379803500
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7489,7 +7813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 379803496}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &379803502
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7518,7 +7842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 379803498}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!23 &379803504
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7863,6 +8187,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -8167,6 +8496,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &433175919 stripped
@@ -8187,6 +8521,10 @@ PrefabInstance:
       value: Cactus (12)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -8587,6 +8925,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -8901,6 +9244,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &473428947 stripped
@@ -8920,6 +9268,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -9082,7 +9435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 478725037}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &478725039
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9108,6 +9461,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -9180,9 +9538,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -9246,6 +9612,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -9343,9 +9714,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -9410,6 +9789,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &496876296 stripped
@@ -9426,9 +9810,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -9493,6 +9885,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
 --- !u!4 &508374483 stripped
@@ -9509,9 +9906,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -9762,9 +10167,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
@@ -9773,6 +10186,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
@@ -9903,6 +10321,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree05 (10) Variant (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
@@ -10091,7 +10514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 536735904}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &536735906
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10172,6 +10595,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree05 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
@@ -10283,6 +10711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -10710,6 +11143,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -10800,9 +11238,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -10883,25 +11329,56 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -10978,6 +11455,10 @@ PrefabInstance:
       value: Cactus (18)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -11252,9 +11733,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -11335,9 +11824,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
@@ -11346,6 +11843,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
@@ -11501,6 +12003,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -11751,6 +12258,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
       propertyPath: m_RootOrder
@@ -11822,9 +12334,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -11889,6 +12409,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
 --- !u!4 &634262531 stripped
@@ -11905,9 +12430,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -12042,6 +12575,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -12142,7 +12680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 639118942}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &639118944
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12223,6 +12761,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree05 (10) Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
@@ -12454,6 +12997,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -12479,6 +13027,10 @@ PrefabInstance:
       value: Cactus (16)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -12574,9 +13126,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -12719,6 +13279,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b9c3c3d4a1818ab4395d85f342a45261, type: 3}
       propertyPath: m_Name
       value: tree05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b9c3c3d4a1818ab4395d85f342a45261, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b9c3c3d4a1818ab4395d85f342a45261, type: 3}
       propertyPath: m_RootOrder
@@ -12876,6 +13440,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
       propertyPath: m_RootOrder
@@ -13001,6 +13570,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -13025,6 +13599,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -13100,6 +13679,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -13231,6 +13815,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &699874775 stripped
@@ -13246,6 +13835,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
+    - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
       propertyPath: playerscript
       value: 
@@ -13411,9 +14004,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -13547,6 +14148,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
@@ -13712,6 +14318,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree05 (10) Variant (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
@@ -13908,6 +14519,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -14119,6 +14735,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -14199,6 +14820,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &775554426 stripped
@@ -14218,6 +14844,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -14372,6 +15003,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_RootOrder
       value: 145
@@ -14523,6 +15158,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &788365418 stripped
@@ -14618,6 +15258,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
+    - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
       propertyPath: playerscript
       value: 
@@ -14777,6 +15421,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
       propertyPath: m_RootOrder
@@ -14848,9 +15497,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -14935,6 +15592,10 @@ PrefabInstance:
       value: Cactus (5)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -15030,9 +15691,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -15097,6 +15766,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &815612431 stripped
@@ -15112,6 +15786,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
+    - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
       propertyPath: playerscript
       value: 
@@ -15277,9 +15955,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -15344,6 +16030,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &824474988 stripped
@@ -15360,9 +16051,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
@@ -15371,6 +16070,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
@@ -15443,9 +16147,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -15510,6 +16222,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
 --- !u!4 &831812537 stripped
@@ -15526,9 +16243,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -15668,6 +16393,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &850178655 stripped
@@ -15687,6 +16417,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -15762,6 +16497,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -15933,9 +16673,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -16020,6 +16768,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus (4) Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
       propertyPath: m_RootOrder
@@ -16094,6 +16847,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -16238,6 +16996,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
       propertyPath: m_RootOrder
@@ -16313,6 +17076,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -16384,9 +17152,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -16525,6 +17301,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree05 (10) Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
@@ -16716,6 +17497,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus (4) Variant (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
       propertyPath: m_RootOrder
@@ -16787,9 +17573,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -16870,9 +17664,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -16936,6 +17738,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -17012,6 +17819,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &944130444 stripped
@@ -17031,6 +17843,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 6672562128803930305, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -17440,6 +18257,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7451283035979784069, guid: ca917ce45d88a7c4ca22f74979d9d215,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 8508923885940702197, guid: ca917ce45d88a7c4ca22f74979d9d215,
         type: 3}
       propertyPath: m_Name
@@ -17536,9 +18358,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1742356504, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1742356504, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1810217444, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1810217444, guid: 7a36e8c2eee887d4db76bac51b712823, type: 3}
       propertyPath: playerscript
       value: 
@@ -17703,6 +18533,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -17774,9 +18609,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -17840,6 +18683,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -17915,6 +18763,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree05 (10) Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
@@ -18014,6 +18867,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Trash
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -18104,7 +18961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1016049886}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &1016049889
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18133,7 +18990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1016049887}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!23 &1016049891
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18265,6 +19122,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &1021673786 stripped
@@ -18319,6 +19181,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 0}
+  isGlobal: 0
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!114 &1028018169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18331,6 +19198,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 0}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 0}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!20 &1028018170
 Camera:
   m_ObjectHideFlags: 0
@@ -18382,9 +19297,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
@@ -18393,6 +19316,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
@@ -18465,9 +19393,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -18531,6 +19467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -18647,6 +19588,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -18722,6 +19668,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -18796,6 +19747,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -19021,6 +19977,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -19127,9 +20088,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -19194,6 +20163,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
       objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
 --- !u!4 &1086197387 stripped
@@ -19210,25 +20184,56 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -19301,9 +20306,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -19388,6 +20401,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -19459,9 +20477,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -19526,6 +20552,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &1114654283 stripped
@@ -19545,6 +20576,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -19621,6 +20657,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus (4) Variant (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
       propertyPath: m_RootOrder
@@ -19696,6 +20737,10 @@ PrefabInstance:
       value: Box0 (14)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
       propertyPath: m_TagString
       value: Trash
       objectReference: {fileID: 0}
@@ -19789,7 +20834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1134084894}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &1134084897
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19818,7 +20863,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1134084895}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!33 &1134084899
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -20324,6 +21369,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -20448,6 +21498,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
@@ -20780,6 +21835,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -20880,6 +21940,10 @@ PrefabInstance:
       value: Cactus (19)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -21044,25 +22108,56 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -21135,13 +22230,26 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
@@ -21222,6 +22330,10 @@ PrefabInstance:
       value: Cactus (14)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -21321,6 +22433,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -21395,6 +22512,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -21471,6 +22593,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus (4) Variant (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
       propertyPath: m_RootOrder
@@ -21545,6 +22672,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -21695,6 +22827,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -22011,6 +23148,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -22032,9 +23174,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
@@ -22043,6 +23193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
@@ -22169,6 +23324,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -22282,6 +23442,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Trash
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
       propertyPath: m_RootOrder
       value: 85
@@ -22372,7 +23536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1318449161}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &1318449164
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22401,7 +23565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1318449162}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!33 &1318449166
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -22725,9 +23889,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -22867,6 +24039,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &1350164756 stripped
@@ -22946,6 +24123,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7451283035979784069, guid: ca917ce45d88a7c4ca22f74979d9d215,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 8508923885940702197, guid: ca917ce45d88a7c4ca22f74979d9d215,
         type: 3}
@@ -23217,6 +24399,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
@@ -23349,6 +24535,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
@@ -23656,9 +24847,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -23722,6 +24921,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -23858,6 +25062,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -23882,6 +25091,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -24092,6 +25306,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree05 (10) Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
@@ -24462,6 +25681,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -24707,9 +25931,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -25013,6 +26245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 62ef2651489b52541b4c69d5088bcec4, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 62ef2651489b52541b4c69d5088bcec4, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -25080,9 +26316,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -25232,13 +26476,26 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
@@ -25318,6 +26575,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -25647,6 +26909,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &1524698976 stripped
@@ -25663,9 +26930,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -25870,6 +27145,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -25941,9 +27221,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -26078,6 +27366,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -26102,6 +27395,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -26177,6 +27475,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -26324,25 +27627,56 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -26477,6 +27811,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 62ef2651489b52541b4c69d5088bcec4, type: 3}
       propertyPath: m_Name
       value: tree07 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 62ef2651489b52541b4c69d5088bcec4, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 62ef2651489b52541b4c69d5088bcec4, type: 3}
       propertyPath: m_RootOrder
@@ -26809,9 +28147,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -26875,6 +28221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: double_bottles (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
@@ -26977,9 +28328,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -27043,6 +28402,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -27281,6 +28645,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
@@ -27613,6 +28982,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7451283035979784069, guid: ca917ce45d88a7c4ca22f74979d9d215,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 8508923885940702197, guid: ca917ce45d88a7c4ca22f74979d9d215,
         type: 3}
       propertyPath: m_Name
@@ -27772,6 +29146,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7451283035979784069, guid: ca917ce45d88a7c4ca22f74979d9d215,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 8508923885940702197, guid: ca917ce45d88a7c4ca22f74979d9d215,
         type: 3}
@@ -27949,9 +29328,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -28091,6 +29478,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &1709901789 stripped
@@ -28107,9 +29499,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -28274,6 +29674,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -28348,6 +29753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -28630,9 +30040,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -28766,6 +30184,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
@@ -28950,6 +30373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c4a8c9e28bdf4b84ab0db3cdc7532633, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c4a8c9e28bdf4b84ab0db3cdc7532633, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -29021,6 +30448,10 @@ PrefabInstance:
       value: Box0 (16)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 30632b5d632d2c545ba8cc142519ce91, type: 3}
       propertyPath: m_TagString
       value: Trash
       objectReference: {fileID: 0}
@@ -29114,7 +30545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1742486658}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &1742486661
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29143,7 +30574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1742486659}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!23 &1742486663
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29270,6 +30701,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -29291,9 +30727,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -29554,6 +30998,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree06 (3) Variant (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -29629,6 +31078,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus (4) Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
       propertyPath: m_RootOrder
@@ -29703,6 +31157,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -29780,6 +31239,11 @@ PrefabInstance:
       value: tree07 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 548862798479234164, guid: d787428d69841564d8e59f6858884468,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 1157578826809305441, guid: d787428d69841564d8e59f6858884468,
         type: 3}
       propertyPath: m_TagString
       value: obstacles
@@ -29979,6 +31443,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -30054,6 +31523,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -30079,6 +31553,10 @@ PrefabInstance:
       value: Cactus (13)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 10c8e65543d17514f9e8fc019d4312f2, type: 3}
       propertyPath: m_TagString
       value: obstacles
       objectReference: {fileID: 0}
@@ -30228,6 +31706,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -30252,6 +31735,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -30477,6 +31965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cereal_2
       objectReference: {fileID: 0}
+    - target: {fileID: 129966, guid: 44d893618ee70db4fbea9c13f14a89fb, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 437718, guid: 44d893618ee70db4fbea9c13f14a89fb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -30555,7 +32047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1827817191}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &1827817193
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30668,7 +32160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1835521773}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &1835521775
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30694,6 +32186,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -30766,9 +32263,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -31018,9 +32523,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -31085,6 +32598,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: double_bottles (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &1848525725 stripped
@@ -31101,9 +32619,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -31184,9 +32710,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -31347,6 +32881,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 577125550, guid: 57845020248c0a442a61a4a9f1a6a522, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
@@ -31426,9 +32964,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 97388273, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 814662052, guid: 647bbe3357a8d2a4a89f7001996c1d0c, type: 3}
       propertyPath: playerscript
       value: 
@@ -31437,6 +32983,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391755951026333030, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2391755951026633028, guid: 647bbe3357a8d2a4a89f7001996c1d0c,
         type: 3}
@@ -31512,6 +33063,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -31737,6 +33293,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -31758,9 +33319,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -31824,6 +33393,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -32049,6 +33623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &1905076460 stripped
@@ -32118,6 +33697,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7451283035979784069, guid: ca917ce45d88a7c4ca22f74979d9d215,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 8508923885940702197, guid: ca917ce45d88a7c4ca22f74979d9d215,
         type: 3}
@@ -32395,10 +33979,10 @@ Animator:
   m_GameObject: {fileID: 1916606304}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 017f1055afced7a4a9b993cb99f53f68, type: 3}
-  m_Controller: {fileID: 9100000, guid: cab81decee2979146b9c114df077e186, type: 2}
+  m_Controller: {fileID: 9100000, guid: e420bb538f541a64692e43c9e05f6fb0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -32737,13 +34321,26 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 766732686, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 2035643525, guid: 0db569f0f2afdba44861deefebbe0b14, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 4394523388793926040, guid: 0db569f0f2afdba44861deefebbe0b14,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4394523390071879279, guid: 0db569f0f2afdba44861deefebbe0b14,
         type: 3}
       propertyPath: m_Name
@@ -32823,6 +34420,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -33205,6 +34807,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &1963965939 stripped
@@ -33221,9 +34828,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -33499,7 +35114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junk: {fileID: 1983562676}
   playerscript: {fileID: 1916606308}
-  _animator: {fileID: 0}
+  _animator: {fileID: 1916606309}
 --- !u!64 &1983562678
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33581,6 +35196,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &1987354882 stripped
@@ -33600,6 +35220,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (4) Variant (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -33672,25 +35297,56 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 215610406, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1251780576, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1360047396, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
     - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 2085974053, guid: 4c6dcd43590049e44a5cc3b59a0b0b30, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 7759269383389159913, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159915, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7759269383389159917, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
       propertyPath: m_Name
       value: Desks (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759269383389159919, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7759269383389461965, guid: 4c6dcd43590049e44a5cc3b59a0b0b30,
         type: 3}
@@ -33763,9 +35419,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -33849,6 +35513,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
@@ -34297,9 +35966,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 700281251, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1466647677, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
       propertyPath: playerscript
       value: 
@@ -34363,6 +36040,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.609
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994899098819717296, guid: e9a3b2755459bcb45bda5eaffa13a323,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9a3b2755459bcb45bda5eaffa13a323, type: 3}
@@ -34541,6 +36223,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b9c3c3d4a1818ab4395d85f342a45261, type: 3}
       propertyPath: m_Name
       value: tree05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b9c3c3d4a1818ab4395d85f342a45261, type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b9c3c3d4a1818ab4395d85f342a45261, type: 3}
       propertyPath: m_RootOrder
@@ -34759,9 +36445,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 56552298, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 960938626, guid: 6bcd54c63073e5e46a0b95cc87984df1, type: 3}
       propertyPath: playerscript
       value: 
@@ -34895,6 +36589,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
@@ -35061,6 +36760,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2928496687918635659, guid: c56563e80f575c143b95b9644bcaa63e,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     - target: {fileID: 4551279095484196766, guid: c56563e80f575c143b95b9644bcaa63e,
         type: 3}
       propertyPath: m_Name
@@ -35085,6 +36789,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 59860070101610179, guid: c5052f095e2ca9e49b90feefdf33949b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 59860070101775073, guid: c5052f095e2ca9e49b90feefdf33949b,
         type: 3}
@@ -35226,6 +36935,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree05 (10) Variant (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8424023684788840729, guid: a76dd2a7bdbf1bc48b952b8303be8b90,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a76dd2a7bdbf1bc48b952b8303be8b90, type: 3}
 --- !u!4 &2118542576 stripped
@@ -35242,9 +36956,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1534097525}
     m_Modifications:
     - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
+    - target: {fileID: 1831924147, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 1916606308}
+    - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1916606309}
     - target: {fileID: 1842180953, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
       propertyPath: playerscript
       value: 
@@ -35309,6 +37031,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottle4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5548174072051603265, guid: 59f853c34b0b85843859f89c72b4c1cb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f853c34b0b85843859f89c72b4c1cb, type: 3}
 --- !u!4 &2126303413 stripped
@@ -35328,6 +37055,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree06 (3) Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672562128803773665, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 7996999143037257440, guid: 31abd21f5ac0d05489f4d61eb1106f2b,
         type: 3}
