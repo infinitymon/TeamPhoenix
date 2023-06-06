@@ -16,6 +16,8 @@ public class levelLoader : MonoBehaviour
     public GameObject SecondCam ;
     public GameObject obstacles ;
     public GameObject greenry; 
+    public GameObject ScoringUI ;
+    public GameObject GameOverUI;
    
 
     private void Start()
@@ -46,7 +48,21 @@ public class levelLoader : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         Scene scene = SceneManager.GetActiveScene() ;
-        if(collision.gameObject.tag=="levelfinisher")
+        if(collision.gameObject.tag=="levelfinisher" && scene.name == "Level_5"){
+            MainCam.SetActive(false) ;
+            StartCoroutine(Example());
+            SecondCam.SetActive(true) ;
+            StartCoroutine(Example());
+            obstacles.SetActive(false) ;
+            StartCoroutine(Example());
+            greenry.SetActive(true) ;
+            Time.timeScale=0f ;
+            GameOverUI.SetActive(true);
+            ScoringUI.SetActive(false);
+
+
+        }
+        else if(collision.gameObject.tag=="levelfinisher")
         {
             levelTransitionUI.SetActive(true);
             scoretext.text = "Your Score : " + (int)playerinfo.score;
@@ -55,23 +71,15 @@ public class levelLoader : MonoBehaviour
             Time.timeScale = 0;
             nextlevel();
         }
-
-        else if(collision.gameObject.tag=="levelfinisher" && scene.name == "Level_5"){
-            MainCam.SetActive(false) ;
-            StartCoroutine(Example());
-            SecondCam.SetActive(true) ;
-            StartCoroutine(Example());
-            obstacles.SetActive(false) ;
-            StartCoroutine(Example());
-            greenry.SetActive(true) ;
-
-
-        }
     }
 
     IEnumerator Example()
     {
         yield return new WaitForSecondsRealtime(2);
      //   print(Time.time);
+    }
+
+    public void Restart(){
+        SceneManager.LoadScene("Level_1") ;
     }
 }

@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Touch touch;
     private float speedModifier;
-    [SerializeField] bool movement;
+    public bool movement;
     public float speed ;
     [SerializeField] Rigidbody rigidbody;
     float horizontalInput;
@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(speed<maxSpeed){
+        if(speed<maxSpeed && movement){
             speed = speed + 0.01f;
         }
 
