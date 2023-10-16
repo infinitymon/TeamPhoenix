@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
         {
             //Vector3 explodeposition = transform.position;
             //private float thrust = -2.0f ;
-            //rigidbody.AddForce(rigidbody.position, rigidbody.position, thrust, ForceMode.Impulse) ;
+            rigidbody.AddForce(0, 1000, -10000f, ForceMode.Impulse) ;
             //_animationcontroller.PlayAnimation(AnimationType.Collide);
             //_animationcontroller.PlayAnimation(AnimationType.Idle);
             movement = false ;
